@@ -16,6 +16,8 @@ html {
     --blue: #2951E3;
     --background: #0C111A;
     --text-color: rgba(255, 255, 255, 0.6);
+    --celeste: #CED9FF;
+    --blue-secondary: #121F48;
 }
 
 .cr-icon{
@@ -63,6 +65,8 @@ header .head .head__cta-comunity {
     background: var(--background);
     display: flex;
     justify-content: center;
+    padding-top: 6.0rem;
+    padding-bottom: 4.5rem;
 }
 .above-cointain {
     width: 90%;
@@ -75,7 +79,6 @@ header .head .head__cta-comunity {
 }
 
 .above-cointain h1 {
-    margin-top: 6.0rem;
     margin-bottom: 2.0rem;
 
     color: var(--white);
@@ -94,10 +97,7 @@ header .head .head__cta-comunity {
     font-weight: 500;
     font-size: 1.6rem;
     line-height: 1.9rem;
-    text-align: center;
     color: var(--text-color);
-
-    margin-bottom: 3.5rem;
 }
 
 
@@ -115,6 +115,84 @@ header .head .head__cta-comunity {
     line-height: 1.8rem;  
 
     color: var(--white);
-    margin-bottom: 8.0rem;
     align-items: center;
+
+    margin-top: 3.5rem;
+}
+
+.localice {
+    display: flex;
+    width: 100%;
+    min-width: 320px;
+    background: var(--background);
+    padding-top: 1rem;
+    padding-bottom: 5.5rem;
+    justify-content: center;
+}
+
+.localice .localice-cointainer {
+    display: flex;
+    min-width: 320px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.localice .localice-content {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: flex-start;
+}
+
+.pic_cont {
+    display: inline-block;
+    width: 100%;
+    min-width: 320px;
+    height: auto; 
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.pic_dc {
+    margin-bottom: 8rem;
+}
+
+
+.localice .localice-cointainer .localice-content h3 {
+    font-family: var(--inter-font);
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.4rem;
+    line-height: 4.1rem;
+
+    color: var(--white);
+
+    margin-bottom: 2.0rem;
+}
+
+.localice .localice-cointainer .localice-content p {
+    font-family: var(--inter-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.7rem;
+    line-height: 2.1rem;  
+
+    color: var(--text-color);
+
+    margin-bottom: 2.5rem;
+}
+
+.localice .localice-cointainer .localice-content .cta-secondary {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+    padding: 1rem 1.5rem;
+
+    border: none;
+    border-radius: 1000px;
+    background: var(--blue-secondary);
+    color: var(--celeste);
 }
