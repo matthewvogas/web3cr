@@ -5,3 +5,116 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --inter-font:'Inter', sans-serif;
+    --white: #FFFFFF;
+    --blue: #2951E3;
+    --background: #0C111A;
+    --text-color: rgba(255, 255, 255, 0.6);
+}
+
+.cr-icon{
+    display: inline-block;
+    width: 18px;
+    height: 18px;   
+    margin-left: 1.5rem;
+    background-image:url('../assets/icons/CR-icon.svg');
+}
+
+header .head {
+    width: 100%;
+    min-width: 320px;
+    display: flex;
+    height: 80px;
+    background: var(--background);
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .head .head__logo {
+    width: 47px;
+    height: 47px;
+}
+
+header .head .head__cta-comunity {
+    display: flex;
+    background: var(--blue);
+    padding: 15px 20px;
+    border-radius: 1000px;
+    border: none;
+    color: var(--white);
+
+    font-style: normal;
+    font-family: var(--inter-font);
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    align-items: center;
+}
+
+.above {
+    width: 100%;
+    min-width: 320px;
+    background: var(--background);
+    display: flex;
+    justify-content: center;
+}
+.above-cointain {
+    width: 90%;
+    min-width: 320px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.above-cointain h1 {
+    margin-top: 6.0rem;
+    margin-bottom: 2.0rem;
+
+    color: var(--white);
+
+    font-family: var(--inter-font);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 4.2rem;
+}
+
+.above-cointain p {
+    width: 80%;
+    font-family: var(--inter-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    text-align: center;
+    color: var(--text-color);
+
+    margin-bottom: 3.5rem;
+}
+
+
+.above .above-cointain button {
+    display: flex;
+    padding: 15px 20px;
+    border-radius: 1000px;
+    border: none;
+    background: var(--blue);
+
+    font-family: var(--inter-font);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.8rem;  
+
+    color: var(--white);
+    margin-bottom: 8.0rem;
+    align-items: center;
+}
