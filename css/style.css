@@ -155,7 +155,11 @@ header .head .head__cta-comunity {
 }
 
 .pic_dc {
-    margin-bottom: 8rem;
+    display: block;
+    width: 90%;
+    position: relative;
+    min-width: 230px;
+    margin: 0rem auto 8rem;
 }
 
 
