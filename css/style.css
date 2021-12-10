@@ -21,6 +21,12 @@ html {
     --blue-secondary: #121F48;
 }
 
+main {
+
+    background: var(--background);
+    min-width: 320px;
+
+}
 .cr-icon{
     display: inline-block;
     width: 18px;
@@ -60,14 +66,22 @@ header .head .head__cta-comunity {
     align-items: center;
 }
 
+
+
 .above {
     width: 100%;
     min-width: 320px;
-    background: var(--background);
+    background-image:url('../assets/images/Above_backg.svg');
+    background-size: cover;
+    height: 730px;
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
+    margin-top: -5rem;
     justify-content: center;
-    padding-top: 6.0rem;
     padding-bottom: 4.5rem;
+
+    
 }
 .above-cointain {
     width: 90%;
@@ -120,6 +134,8 @@ header .head .head__cta-comunity {
 
     margin-top: 3.5rem;
 }
+
+
 
 .localice {
     display: flex;
@@ -335,11 +351,189 @@ header .head .head__cta-comunity {
     height: 34px;
 
     left: 35px;
-    bottom: -440px;
+    bottom: -460px;
 
     border-radius: 1000px;
     background: linear-gradient(230.76deg, #776BFF 15.33%, #B7F6FF 84.57%);
     box-shadow: 0px 0px 43.5px rgba(173, 226, 255, 0.7);
 }
 
+/*Footer*/
 
+.connect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    color: var(--white);
+
+    background: var(--background);
+
+    font-family: var(--inter-font);
+}
+
+.connect .redes {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+    width: 90%;
+    height: 210px; 
+
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur( 25px );
+    -webkit-backdrop-filter: blur( 7px );
+    border-radius: 22px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.connect h3 {
+    margin-bottom: 5rem;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 5.2rem;
+}
+
+.connect .redes .icon-social {
+
+    display: grid;
+    place-items: center;
+
+    width: 50px;
+    height: 50px;
+
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+    border-radius: 1000px;
+}
+
+.connect .redes .DISC-Footer {
+    background: linear-gradient(230.76deg, #FF6C87 15.33%, #FFD1B7 84.57%);
+    box-shadow: 0px 0px 72px rgba(255, 227, 173, 0.7);
+}
+
+.connect .redes .FB-Footer {
+    background: linear-gradient(230.76deg, #6759FF 15.33%, #D7B7FF 84.57%);
+    box-shadow: 0px 0px 72px rgba(173, 226, 255, 0.7);
+}
+
+.connect .redes .IG-Footer {
+    background: linear-gradient(230.76deg, #FF6B86 15.33%, #F79CFF 84.57%);
+    box-shadow: 0px 0px 72px rgba(253, 173, 255, 0.7);
+}
+
+.logo-social {
+    width: 25px;
+    height: 20px;
+}
+
+
+.connect .redes .icon-social .FB-icon {
+    background-image: url('../assets/icons/fb.svg');
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+} 
+
+.connect .redes .icon-social .DISC-icon {
+    background-image: url('../assets/icons/dc.svg');
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+} 
+
+
+.connect .redes .icon-social .IG-icon {
+    background-image: url('../assets/icons/ig.svg');
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+} 
+
+footer {
+    border-top: solid 1px rgba(236, 236, 236, 0.261);
+
+    display: flex;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+
+    background: var(--background);
+
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    justify-content: flex-start;
+    padding-left: 2.5rem;
+    color: var(--white);
+
+    font-family: var(--inter-font);
+}
+
+footer .footer-navs {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    
+}
+
+footer .footer-nav {
+    margin-top: 2rem;
+}
+
+.nav_fotter-item {
+    list-style: none;
+}
+
+footer .footer-nav h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.6rem;
+    line-height: 3.2rem;
+
+    padding-top: 1rem;
+}
+
+footer .nav_fotter-item  {
+
+    color: var(--text-color);
+
+    padding-top: 1rem;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+}
+
+footer .footer-nav .cta-donation {
+
+    margin-top: 1.5rem;
+    padding: 1rem 1.5rem;
+
+    border-radius: 1000px;
+    border: none;
+    background: var(--blue);
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+
+    color: var(--white);
+}
