@@ -1,1 +1,39 @@
 /*Tablet Responsive*/
+
+.circle-pink {
+
+    bottom: -395px;
+
+
+}
+
+.circle-blue {
+
+    bottom: -360px;
+
+}
+
+.localice__mapa {
+    width: 500px;
+}
+
+.localice__dc {
+    width: 500px;
+}
+
+.localice .localice-cointainer {
+    display: flex;
+    min-width: 320px;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic_dc {
+    
+    margin: 0rem auto 2rem;
+}
+
+.localice .localice-content {
+    margin-left: 2rem;
+}
