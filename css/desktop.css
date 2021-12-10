@@ -1,1 +1,134 @@
 /*Desktop Responsive*/
+
+:root {
+    --background: #0C111A;
+}
+.circle-pink {
+
+    bottom: -495px;
+
+
+}
+
+.circle-blue {
+
+    bottom: -380px;
+
+
+}
+
+header .head {
+    justify-content: space-between; 
+    padding: 0 2rem;
+}
+
+body {
+    background: var(--background);
+}
+
+main {
+    min-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    background: var(--background);
+}
+
+.above-cointain h1 {
+
+    width: 80%;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 6.5rem;
+    line-height: 9.1rem;
+
+}
+
+.above-cointain p {
+    width: 60%;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.7rem;
+    line-height: 3.0rem;
+}
+
+
+.localice .localice-cointainer {
+    margin: 0 3rem;
+    justify-content: space-between;
+}
+
+.localice .localice-cointainer .localice-content {
+    width: 60%;
+}
+.localice .localice-cointainer .localice-content h3 {
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 6.1rem;
+
+    width: 80%;
+
+}
+
+.localice .localice-cointainer .localice-content p {
+
+    margin-top: 2rem;
+    width: 70%;
+    font-size: 1.7rem;
+    
+}
+
+.pic_dc {
+    margin: 0rem auto 2rem;
+    width: 80%;
+}
+
+.metup .metup-cointainer h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5.5rem;
+    line-height: 8.5rem;
+
+}
+
+.metup .metup-cointainer p {
+
+    opacity: 60%;
+    width: 50%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.9rem;
+    line-height: 3.6rem;
+}
+
+
+.metup .metup-cointainer button {
+    font-size: 1.7rem;
+    padding: 1.5rem;
+}
+
+header .head .head__cta-comunity {
+    font-size: 1.7rem;
+}
+
+.above .above-cointain button {
+    font-size: 1.7rem;
+}
+
+footer .footer-navs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 3.5rem;
+    width: 100%;
+}
+
+.connect .redes .icon-social {
+
+    margin-left: 5rem;
+    margin-right: 5rem;
+
+}
